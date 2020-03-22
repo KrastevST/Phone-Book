@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhoneBook", "PhoneBook.vcxproj", "{86F57EBA-249E-42C8-9083-AA48E3796BFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86F57EBA-249E-42C8-9083-AA48E3796BFC}.Debug|x64.ActiveCfg = Debug|x64
+		{86F57EBA-249E-42C8-9083-AA48E3796BFC}.Debug|x64.Build.0 = Debug|x64
+		{86F57EBA-249E-42C8-9083-AA48E3796BFC}.Debug|x86.ActiveCfg = Debug|Win32
+		{86F57EBA-249E-42C8-9083-AA48E3796BFC}.Debug|x86.Build.0 = Debug|Win32
+		{86F57EBA-249E-42C8-9083-AA48E3796BFC}.Release|x64.ActiveCfg = Release|x64
+		{86F57EBA-249E-42C8-9083-AA48E3796BFC}.Release|x64.Build.0 = Release|x64
+		{86F57EBA-249E-42C8-9083-AA48E3796BFC}.Release|x86.ActiveCfg = Release|Win32
+		{86F57EBA-249E-42C8-9083-AA48E3796BFC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34FA5E7E-1609-4C92-8FEA-4D7EF2DB49D4}
+	EndGlobalSection
+EndGlobal
