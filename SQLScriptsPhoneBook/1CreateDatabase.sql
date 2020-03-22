@@ -1,0 +1,14 @@
+USE [master]
+GO
+
+IF DB_ID('PhoneBook') IS NULL
+	BEGIN
+		CREATE DATABASE PhoneBook
+		 CONTAINMENT = NONE
+		 ON  PRIMARY 
+		( NAME = N'PhoneBook', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA\PhoneBook.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+		 LOG ON 
+		( NAME = N'PhoneBook_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA\PhoneBook_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+	END
+GO
+
