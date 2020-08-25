@@ -1,2 +1,2 @@
 # Phone-Book
-App that performs CRUD operations on a database
+MFC application that performs CRUD operations on a database using MS SQL Server.
